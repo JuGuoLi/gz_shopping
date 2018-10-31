@@ -1,0 +1,429 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+body{
+	font-family:'微软雅黑';
+	background-color:#fff;
+	position:relative;
+}
+#header{
+	height:36px;
+	background-color:#333;
+	line-height:36px;
+	position:relative;
+}
+#header_top{
+	width:1090px;
+	margin:0px auto; 
+	position:relative;
+	z-index:3;
+}
+#header_form input{
+	background-color:#333;
+	color:white;
+	border:none;
+}
+#header_a_left,#header_ul li a{
+	font-family:'微软雅黑';
+	color:#ccc;
+	text-decoration:none;
+	font-size:15px;
+}
+#header_a_left{
+	position:absolute;
+	left:40px;
+}
+#header_a_left:hover,#header_ul li a:hover{
+	color:#fff;
+}
+#header_ul{
+	list-style:none;
+}
+#digitalclock{
+	color:white;
+	position:relative;
+	top:0px;
+	right:0px;
+}
+.styling{
+background-color:#333;
+color:white;
+font: bold 16px MS Sans Serif;
+padding: 3px;
+float:right;
+line-height:20px;
+}
+#header_ul li{
+	float:right;
+	margin-right:5px;
+
+}
+#header_app{
+	position:relative;
+	top:-2px;
+}
+.td{
+	width:80px;
+	height:20px;
+}
+A:visited {
+	TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #ff0000; TEXT-DECORATION: none
+}
+A:link {
+	TEXT-DECORATION: none
+}
+.white {
+	FONT-SIZE: 9pt; COLOR: #333;
+}
+.bg1 {
+	FONT-SIZE: 9pt; COLOR: #333;margin-top:9px;
+}
+#table{
+	line-height:31px;
+}
+#header_bottom{
+	height:200px;
+	border-bottom:1px solid red;
+	position:relative;
+}
+#content{
+	width:1080px;
+	margin:0px auto;
+	position:relative;
+}
+#img{
+	width:450px;
+	height:500px;
+	float:left;
+	border:1px solid green;
+	margin-bottom:5px;
+}
+#text{
+	width:600px;
+	border:1px solid yellow;
+	float:right;
+
+}
+#img_bottom{
+	width:450px;
+	height:100px;
+	border:2px solid black;
+	position:absolute;
+	top:520px;
+	left:0px;
+}
+#title{
+	height:90px;
+	margin-bottom:10px;
+}
+#promise{
+	height:100px;
+	position:relative;
+}
+#detail{
+	height:80px;
+}
+#count{
+
+}
+#title span{
+	color:black;
+	font-size:20px;
+	font-weight:700;
+	font-family:'microsoft yahei'
+}
+#title p{
+	color:red;
+	margin-top:5px;
+}
+#promise img{
+	height:100px;
+	width:600px;
+	opacity:0.3;
+	position:absolute;
+	z-index:3;
+}
+#td1{
+	padding-right:30px;
+}
+#td2{
+	text-decoration:line-through;
+}
+#vip{
+	color:#FF0036;
+	font-size:30px;
+	font-weight: bolder;
+  font-family: Arial;
+}
+#detail_ul{
+	border-bottom:1px dotted #c9c9c9;
+	border-top:1px dotted #c9c9c9;
+	padding-top:5px;
+	padding-bottom:35px;
+}
+.li_2{
+	color:#c9c9c9;
+}
+.li_1{
+	color:#999;
+}
+#detail_ul ul{
+	margin-left:80px;
+}
+#detail_ul li{
+	list-style:none;
+	float:left;
+	margin-left:20px;
+}
+.ul_span{
+	color:red;
+}
+#detail>p{
+	text-align:center;
+	margin:5px 0px;
+}
+#count p{
+	margin-bottom:5px;
+	clear:both;
+}
+#count ul{
+	margin-left:20px;
+}
+#count ul li{
+	list-style:none;
+	margin-bottom:15px;
+	margin-left:20px;
+	float:left;
+}
+#count ul li a{
+	color:black;
+	border:3px solid #c9c9c9;
+	padding:2px;
+}
+#count ul li a:hover{
+	border-color:red;
+}
+#count input{
+	display:block;
+}
+
+.clear{
+	clear:both;
+	margin-bottom:40px;
+}
+.clear>span{
+	float:left;
+}
+.clear>input{
+	width:20px;
+	float:left;
+}
+.a_img{
+	width:50px;
+	height:50px;
+	border:3px solid #c9c9c9;
+}
+.a_img:hover{
+	border-color:red;
+}
+#count_a_img{
+	margin-left:40px;
+}
+.shop{
+	float:left;
+	display:block;
+	width: 178px;
+  background-color: #ffeded;
+  border: 1px solid #FF0036;
+  color: #FF0036;
+  font-family: 'Microsoft Yahei';
+	height: 38px;
+  line-height: 38px;
+  text-align: center;
+  font-size: 16px;
+}
+.shoucang{
+	margin-left:10px;
+	float:left;
+	display:block;
+	width: 178px;
+  background-color: #ff0036;
+  border: 1px solid #ff0036;
+  color: white;
+  font-family: 'Microsoft Yahei';
+	height: 38px;
+  line-height: 38px;
+  text-align: center;
+  font-size: 16px;
+}
+#server{
+	padding-top:40px;
+	clear:both;
+}
+#table_title{
+	color:#999;
+}
+#server tr{
+	height:30px;
+}
+#server tr td{
+	padding-left:20px;
+}
+#server tr td a{
+	color:black;
+}
+#server tr td a:hover{
+	color:red;
+	text-decoration:underline;
+}
+footer{
+	clear:both;
+}
+#four_logo{
+	width:1305px;
+	height:100px;
+	margin:0px auto;
+	margin-top:30px;
+	margin-bottom:10px;
+
+}
+#four_logo img{
+	width:100px;
+	height:100px;
+}
+#four_logo li{
+	float:left;
+	list-style:none;
+	margin:0px 65px;
+}
+#four_logo li img{
+	float:left;
+}
+#four_logo li p{
+	margin-top:20px;
+	float:left;
+	font-size:24px;
+	font-weight:bold;
+	color:red;
+}
+#footer1{
+	width:1305px;
+	height:200px;
+	background-color:#e8e8e8;
+	margin:0px auto;	
+}
+.footer1_div1{
+	float:left;
+	margin-left:130px;
+	margin-top:20px;
+}
+.footer1_div2{
+	width:250px;
+	height:200px;
+	float:left;
+	margin-left:150px;
+	text-align:center;
+}
+.footer1_div1 ul li{
+	list-style:none;
+	margin-top:5px;
+}
+.footer1_div1 ul li a{
+	text-decoration:none;
+	font-size:14px;
+	font-weight:500;
+	color:rgb(108,108,108);
+}
+.footer1_div1 ul li a:hover{
+	color:black;
+}
+.footer1_div2 h3{
+	margin-top:20px;
+}
+.footer1_div2 p{
+	margin-top:15px;
+}
+#footer2{
+	height:204px;
+	background-color:#414141;
+	padding-top:37px;
+	margin-top:50px;
+}
+#footer2_top{
+	width:1305px;
+	height:95px;
+	margin:0px auto;
+	margin-top:-25px;
+}
+#footer2_bottom{
+	width:1305px;
+	height:95px;
+	margin:0px auto;
+	margin-top:10px;
+	
+}
+#footer2_bottom_top{
+	width:1305px;
+	height:55px;
+	position:relative;
+}
+#footer2_bottom_bottom{
+	width:1305px;
+	height:45px;
+}
+#footer2_top ul li{
+	float:left;
+	list-style:none;
+	font-size:23px;
+	color:white;
+	margin-left:210px;
+	line-height:140px;
+}
+#footer2_bottom_top ul{
+	position:absolute;
+	top:0px;
+	left:260px;
+}
+#footer2_bottom_top ul li{
+	float:left;
+	list-style:none;
+	font-size:14px;
+	color:white;
+	margin-left:10px;
+	line-height:90px;
+}
+#footer2_bottom_top ul li a{
+	text-decoration:none;
+	color:white;
+}
+#footer2_bottom_bottom p{
+	font-size:12px;
+	color:white;
+	text-align:center;
+}
+.td{
+	width:80px;
+	height:20px;
+}
+A:visited {
+	TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #ff0000; TEXT-DECORATION: none
+}
+A:link {
+	TEXT-DECORATION: none
+}
+.white {
+	FONT-SIZE: 9pt; COLOR: #333;
+}
+.bg1 {
+	FONT-SIZE: 9pt; COLOR: #333;margin-top:9px;
+}
+#table{
+	line-height:31px;
+}
